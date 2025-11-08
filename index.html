@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws & Preferences</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Paws & Preferences: Find Your Favourite Kitty</header>
+
+<div id="card-container"></div>
+
+<div class="controls">
+    <button id="prev-btn">← Previous</button>
+    <button id="next-btn">Next →</button>
+</div>
+
+<p id="hint"> click left  or right </p>
+
+<div id="summary" class="hidden">
+    <h2>You have Meow  <span id="count"></span> cats</h2>
+    <div id="liked-list"></div>
+    <button onclick="restart()">Meow Again</button>
+</div>
+
+<footer>© danaselan</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
